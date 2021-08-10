@@ -1,0 +1,10 @@
+@import '~vuetify/src/styles/styles.sass';
+
+@import 'form';
+@import 'table';
+@import 'button';
+@import 'abstract';
+
+.v-data-table > .v-data-table__wrapper tbody tr.v-data-table__expanded__content {
+  box-shadow: none;
+}

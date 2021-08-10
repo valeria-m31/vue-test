@@ -1,0 +1,28 @@
+@use 'abstract/palette';
+
+
+.table-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 12vh;
+}
+
+.label-wrapper {
+  border-bottom: 1px solid palette.$lable-border;
+
+  .icon-plus {
+    width: 5%;
+
+    v-icon {
+      cursor: pointer
+    }
+  }
+
+  .phone {
+    width: 55%
+  }
+}
+
+
+

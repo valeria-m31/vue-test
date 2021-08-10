@@ -1,0 +1,10 @@
+@use 'abstract/palette';
+
+.generic-btn {
+  border-radius: 30px;
+  border: 1px solid palette.$btn-border;
+  min-height: 36px;
+  box-shadow: unset;
+  margin: 0 18px 18px 18px;
+}
+
